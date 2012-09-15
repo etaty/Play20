@@ -10,6 +10,15 @@
     case 5 => {@@test.length.toInt}
 }
 
+@test.length.toString match {
+    case "5" => {@{
+            val f = "test scala block"
+            f
+        }}
+    case "6" => {@{"???"}}
+    case "7" => {"???"}
+}
+
 @(test) match {
     case test => {@@(test)}
 }

@@ -38,6 +38,8 @@ object TemplateCompilerSpec extends Specification {
 @test.length
 @test.length.toInt
 
+test scala block
+
 @(test)
 @(test.length)
 @(test.length + 1)
